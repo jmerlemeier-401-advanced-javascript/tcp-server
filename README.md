@@ -5,8 +5,8 @@
 ### Author: Julie Erlemeier
 
 ### Links and Resources
-* [submission PR](http://xyz.com)
-* [travis](http://xyz.com)
+* [submission PR](https://github.com/jmerlemeier-401-advanced-javascript/tcp-server/pull/2)
+* [travis](https://www.travis-ci.com/jmerlemeier-401-advanced-javascript/tcp-server)
 * [back-end](https://tcp-server-app.herokuapp.com/)
 
 
