@@ -1,8 +1,3 @@
-## How to run app
-- node server.js
-- node app.js
-- node logger.js
-
 # LAB - 17
 
 ## TCP Server
