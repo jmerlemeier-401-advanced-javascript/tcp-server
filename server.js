@@ -21,7 +21,9 @@ server.on('connection', (socket) => {
   console.log('Someone connected', id);
   socket.on('data', (buffer) => { 
     dispatchEvent(buffer);
-    // console.log(buffer.toString().trim());
+  socket.on('close', () => {
+    delete socketPool[id];
+  })
   });
 });
 
@@ -33,7 +35,7 @@ const dispatchEvent = (buffer) => {
  //iterate over object. socket is the key.
  //for eery socket in my socketpool, I am going to grab my payload and send it 
  for(let socket in socketPool){
+   //need to turn object into a string
   socketPool[socket].write(JSON.stringify(eventPayload));
  }
 }
-
