@@ -1,0 +1,28 @@
+{
+  "name": "tcp-server",
+  "version": "1.0.0",
+  "description": "JS401 Lab-17",
+  "main": "app.js",
+  "scripts": {
+    "test": "NODE_ENV=test jest --verbose",
+    "lint": "eslint ./**/*.js --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmerlemeier-401-advanced-javascript/tcp-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmerlemeier-401-advanced-javascript/tcp-server/issues"
+  },
+  "homepage": "https://github.com/jmerlemeier-401-advanced-javascript/tcp-server#readme",
+  "dependencies": {
+    "eslint": "^6.6.0",
+    "fs": "0.0.1-security",
+    "jest": "^24.9.0",
+    "net": "^1.0.2",
+    "uuid": "^3.3.3"
+  }
+}
